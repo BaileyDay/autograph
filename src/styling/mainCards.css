@@ -1,7 +1,7 @@
 .card-deck {
   margin-left: 5%;
   margin-right: 5%;
-  margin-bottom: 5%;
+  margin-bottom: 15%;
 }
 
 .card-body {
@@ -20,4 +20,10 @@
   display: flex;
   justify-content: center;
   margin: 3%;
+}
+
+@media only screen and (max-width: 600px) {
+  #lessonsImg {
+    height: 20%;
+  }
 }

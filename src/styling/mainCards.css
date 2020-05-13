@@ -1,0 +1,23 @@
+.card-deck {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 5%;
+}
+
+.card-body {
+  box-shadow: 0 10px 6px -6px #777;
+}
+
+#lessonsImg {
+  width: 30%;
+  border: 2px solid #783030;
+  border-radius: 47%;
+  padding: 2%;
+  margin: 2%;
+}
+
+.cardImgContainer {
+  display: flex;
+  justify-content: center;
+  margin: 3%;
+}

@@ -33,7 +33,9 @@ const Carousel = () => {
                   the equestrian enthusiast.
                 </p>
               </div>
-              <button className="btn btn-primary">Learn More</button>
+              <a className="btn btn-primary" href="/about">
+                Learn More
+              </a>
             </div>
           </div>
           <div class="carousel-item">
@@ -50,7 +52,9 @@ const Carousel = () => {
                   most advanced riders, helping you to achieve your goals.
                 </p>
               </div>
-              <button className="btn btn-primary">Discover Lessons</button>
+              <a className="btn btn-primary" href="/lessons">
+                Discover Lessons
+              </a>
             </div>
           </div>
           <div class="carousel-item">
@@ -67,7 +71,9 @@ const Carousel = () => {
                   horse. 12+ Acres of incredible facilities at your disposal.
                 </p>
               </div>
-              <button className="btn btn-primary">See our home</button>
+              <a className="btn btn-primary" href="/boarding">
+                See our home
+              </a>
             </div>
           </div>
         </div>

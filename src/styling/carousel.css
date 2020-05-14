@@ -6,7 +6,7 @@
   width: 100%;
 }
 
-.carousel-item button {
+.carousel-item a {
   background-color: #783030;
   border: #532121;
   margin-bottom: 2%;
@@ -15,18 +15,17 @@
   font-size: 3em;
   text-shadow: 2px 2px 3px #000000;
 }
-.carousel-item button:hover {
+.carousel-item a:hover {
   background-color: #572323;
 }
+
+.btn:focus,
 .btn:active {
-  background-color: #572323 !important;
-  border: none;
   outline: none !important;
+  box-shadow: none !important;
+  background-color: #572323 !important;
 }
 
-*:focus {
-  outline: none;
-}
 .slideDescription {
   font-size: 1.5em;
   width: 60%;

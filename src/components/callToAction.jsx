@@ -18,9 +18,8 @@ const CallToAction = () => {
           </div>
           <div class="col-sm-12 col-md-5 col-lg-4 align-self-center">
             <div class="as-cta-btn">
-              <a href="#" class="btn btn-warning btn-lg">
+              <a href="/about" class="btn btn-warning btn-lg">
                 Learn More!
-                <i class="fa fa-angle-right" aria-hidden="true"></i>
               </a>
             </div>
           </div>

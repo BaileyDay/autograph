@@ -1,5 +1,6 @@
 import React from "react";
 import "../styling/navbar.css";
+import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -12,6 +13,7 @@ const Navbar = () => {
         alt="Autograph Farm Logo"
         className="logo"
       />
+
       <button
         class="navbar-toggler"
         type="button"
@@ -25,25 +27,45 @@ const Navbar = () => {
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">
-              Home <span class="sr-only">(current)</span>
-            </a>
+          <li class="nav-item" active>
+            <NavLink
+              exact
+              activeClassName="nav-link active"
+              className="nav-link"
+              to="/"
+            >
+              Home
+            </NavLink>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">
+            <NavLink
+              exact
+              activeClassName="nav-link active"
+              className="nav-link"
+              to="/about"
+            >
               About
-            </a>
+            </NavLink>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">
+            <NavLink
+              exact
+              activeClassName="nav-link active"
+              className="nav-link"
+              to="/lessons"
+            >
               Lessons
-            </a>
+            </NavLink>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">
+            <NavLink
+              exact
+              activeClassName="nav-link active"
+              className="nav-link"
+              to="/boarding"
+            >
               Boarding
-            </a>
+            </NavLink>
           </li>
         </ul>
       </div>

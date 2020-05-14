@@ -51,16 +51,16 @@ const Footer = () => {
 
             <ul class="list-unstyled">
               <li>
-                <a href="#!">Home</a>
+                <a href="/">Home</a>
               </li>
               <li>
-                <a href="#!">About</a>
+                <a href="/about">About</a>
               </li>
               <li>
-                <a href="#!">Lessons</a>
+                <a href="/lessons">Lessons</a>
               </li>
               <li>
-                <a href="#!">Boarding</a>
+                <a href="/boarding">Boarding</a>
               </li>
             </ul>
           </div>

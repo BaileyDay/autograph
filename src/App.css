@@ -36,3 +36,9 @@
     transform: rotate(360deg);
   }
 }
+
+.placeHolder {
+  margin-top: 10%;
+  margin-bottom: 10%;
+  font-size: 4em;
+}

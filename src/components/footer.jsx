@@ -17,13 +17,31 @@ const Footer = () => {
 
             <ul class="list-unstyled">
               <li>
-                <a href="#!">Facebook</a>
+                <a href="http://facebook.com" target="_blank">
+                  <img
+                    src={require("../images/facebook.png")}
+                    alt=""
+                    id="social"
+                  />
+                </a>
               </li>
               <li>
-                <a href="#!">Twitter</a>
+                <a href="http://twitter.com" target="_blank">
+                  <img
+                    src={require("../images/twitter.png")}
+                    alt=""
+                    id="social"
+                  />
+                </a>
               </li>
               <li>
-                <a href="#!">Instagram</a>
+                <a href="http://instagram.com" target="_blank">
+                  <img
+                    src={require("../images/instagram.png")}
+                    alt=""
+                    id="social"
+                  />
+                </a>
               </li>
             </ul>
           </div>

@@ -10,3 +10,18 @@
 .footer-copyright {
   background-color: #494949;
 }
+
+#social {
+  width: 30%;
+  margin-top: 2%;
+}
+
+#social:hover {
+  filter: brightness(70%);
+}
+
+@media only screen and (max-width: 600px) {
+  #social {
+    width: 40%;
+  }
+}

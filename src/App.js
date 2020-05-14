@@ -5,6 +5,8 @@ import Navbar from "./components/navbar";
 import Carousel from "./components/carousel";
 import MainCards from "./components/mainCards";
 import Footer from "./components/footer";
+import CallToAction from "./components/callToAction";
+import BusinessHours from "./components/businessHours";
 
 function App() {
   return (
@@ -12,6 +14,8 @@ function App() {
       <Navbar />
       <Carousel />
       <MainCards />
+      <CallToAction />
+      <BusinessHours />
       <Footer />
     </>
   );

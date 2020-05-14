@@ -1,7 +1,6 @@
 .card-deck {
   margin-left: 5%;
   margin-right: 5%;
-  margin-bottom: 15%;
 }
 
 .card-body {
@@ -10,8 +9,6 @@
 
 #lessonsImg {
   width: 30%;
-  border: 2px solid #783030;
-  border-radius: 47%;
   padding: 2%;
   margin: 2%;
 }

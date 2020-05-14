@@ -1,0 +1,41 @@
+.as-cta-boxed-gradient {
+  background-image: url("../images/callToAction.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 10px -200px;
+  text-shadow: 2px 2px 3px #000000;
+}
+.as-cta-boxed-gradient p {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2em;
+}
+.as-cta-boxed-gradient h2 {
+  font-family: "Noto Sans", sans-serif;
+}
+.as-cta-boxed-gradient a {
+  background-color: #783030;
+  border: #652828;
+  color: white;
+  box-shadow: -3px 3px #632727, -2px 2px #632828, -1px 1px #642727;
+  text-shadow: none;
+}
+.as-cta-boxed-gradient a:hover {
+  background-color: #592323;
+  border: #532121;
+  color: white;
+}
+
+.as-cta-boxed-gradient .as-cta-desc h2,
+.as-cta-boxed-gradient .as-cta-desc p {
+  color: #fff;
+}
+@media (max-width: 767px) {
+  .as-cta-boxed-gradient {
+    text-align: center;
+    background-position: 0px;
+    border-radius: 5px;
+  }
+  .as-cta-boxed-gradient .as-cta-btn {
+    margin-top: 20px;
+  }
+}

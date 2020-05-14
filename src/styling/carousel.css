@@ -9,6 +9,11 @@
 .carousel-item button {
   background-color: #783030;
   border: #532121;
+  margin-bottom: 2%;
+}
+.carousel-item h1 {
+  font-size: 3em;
+  text-shadow: 2px 2px 3px #000000;
 }
 .carousel-item button:hover {
   background-color: #572323;
@@ -24,11 +29,10 @@
 }
 .slideDescription {
   font-size: 1.5em;
-  background-color: black;
   width: 60%;
-  border-radius: 5px;
   text-align: center;
   padding: 1%;
+  text-shadow: 2px 2px 3px #000000;
 }
 
 .slideDescContainer {
@@ -51,9 +55,9 @@
   }
   .carousel-item button {
     height: 20px;
-    font-size: 0.5em;
-    padding-top: 3px;
-    width: 40%;
+    font-size: 0.7em;
+    width: 50%;
+    height: 10%;
   }
   .carousel-item h1 {
     font-size: 1em;

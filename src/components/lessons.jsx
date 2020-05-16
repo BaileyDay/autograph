@@ -16,6 +16,11 @@ const Lessons = () => {
         </div>
       </div>
       <div className="lessonsContainer">
+        <div className="contactContainer">
+          <a href="/contact" className="btn btn-primary" target="_blank">
+            Contact us about Lessons
+          </a>
+        </div>
         <div class="row featurette">
           <div class="col-md-7">
             <h2 class="featurette-heading">Training for Every Level</h2>
@@ -79,7 +84,7 @@ const Lessons = () => {
           <div class="col-md-7">
             <h2 class="featurette-heading">Our Legacy</h2>
             <p class="lead">
-              Many Foxcroft riders compete at the most advanced hunter / jumper
+              Many Autograph riders compete at the most advanced hunter / jumper
               ‘AA’ level. Whether your interest is in the hunter, jumper, or
               equitation ring, our trainers have the skill and experience to
               take you to this highest level. We compete regularly at shows
@@ -95,8 +100,6 @@ const Lessons = () => {
             />
           </div>
         </div>
-
-        <hr class="featurette-divider" />
       </div>
       <Footer />
     </>

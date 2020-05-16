@@ -36,6 +36,25 @@
   margin-top: -10%;
 }
 
+.contactContainer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5%;
+}
+.contactContainer a {
+  background-color: #783030;
+  border: #652828;
+  color: white;
+  box-shadow: -3px 3px #632727, -2px 2px #632828, -1px 1px #642727;
+  text-shadow: none;
+}
+.contactContainer a:hover {
+  background-color: #783030;
+  border: #652828;
+  color: white;
+  box-shadow: -3px 3px #632727, -2px 2px #632828, -1px 1px #642727;
+  text-shadow: none;
+}
 @media only screen and (max-width: 600px) {
   #lessonsJumbotron {
     background-image: url("../images/lessons.jpg");

@@ -8,6 +8,7 @@ import NoMatch from "./components/noMatch";
 import About from "./components/about";
 import Lessons from "./components/lessons";
 import Boarding from "./components/boarding";
+import Contact from "./components/contact";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -17,6 +18,7 @@ ReactDOM.render(
         <Route path="/about" exact component={About} />
         <Route path="/lessons" exact component={Lessons} />
         <Route path="/boarding" exact component={Boarding} />
+        <Route path="/contact" exact component={Contact} />
         <Route component={NoMatch} />
       </Switch>
     </Router>

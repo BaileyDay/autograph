@@ -7,8 +7,18 @@ const Footer = () => {
       <div class="container-fluid text-center text-md-left">
         <div class="row">
           <div class="col-md-6 mt-md-0 mt-3">
-            <h5 class="text-uppercase">Autograph Farm</h5>
-            <p>The #1 rated equestrian barn in Alpharetta, Georgia.</p>
+            <h5 class="text-uppercase" id="BarnTitle">
+              Autograph Farm
+            </h5>
+            <p className="footerText">
+              Autograph Farm is a premier equestrian show barn located in the
+              heart of Alpharetta, Georgia, north Atlanta's most sought-after
+              horse community. Our facility features a 12 stall barn, spacious
+              pastures for daily turnout, three arenas and much more. We offer a
+              riding lesson program for all levels of riders. We develop
+              well-rounded riders and participate in premier and national shows
+              as well as local GHJA shows.
+            </p>
           </div>
 
           <hr class="clearfix w-100 d-md-none pb-3" />

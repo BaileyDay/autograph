@@ -1,0 +1,48 @@
+#lessonsJumbotron {
+  background-image: url("../images/lessons.jpg");
+  color: white;
+  text-shadow: 2px 3px 3px #000000;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0px -200px;
+}
+#lessonsJumbotron h1 {
+  font-family: "Noto Sans", sans-serif;
+}
+#lessonsJumbotron p {
+  font-family: "Roboto", sans-serif;
+}
+
+.lessonsContainer {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 5%;
+}
+
+.lessonsContainer p {
+  font-size: 1.2em;
+}
+
+.lessons1 {
+  object-fit: contain;
+  width: 100%;
+  height: 75%;
+}
+.lessons1 img {
+  box-shadow: 0 10px 6px -6px #777;
+}
+
+.lessons2Container {
+  margin-top: -10%;
+}
+
+@media only screen and (max-width: 600px) {
+  #lessonsJumbotron {
+    background-image: url("../images/lessons.jpg");
+    color: white;
+    text-shadow: 2px 3px 3px #000000;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0px 0px;
+  }
+}

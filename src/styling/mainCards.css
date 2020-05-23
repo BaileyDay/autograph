@@ -6,6 +6,9 @@
 .card-body {
   box-shadow: 0 10px 6px -6px #777;
 }
+.card-body:hover {
+  background-color: rgb(225, 225, 225);
+}
 
 #lessonsImg {
   width: 30%;

@@ -9,6 +9,7 @@ import About from "./components/about";
 import Lessons from "./components/lessons";
 import Boarding from "./components/boarding";
 import Contact from "./components/contact";
+import Accomplishments from "./components/accomplishments";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -19,6 +20,7 @@ ReactDOM.render(
         <Route path="/lessons" exact component={Lessons} />
         <Route path="/boarding" exact component={Boarding} />
         <Route path="/contact" exact component={Contact} />
+        <Route path="/accomplishments" exact component={Accomplishments} />
         <Route component={NoMatch} />
       </Switch>
     </Router>

@@ -1,0 +1,67 @@
+.gallery-container {
+  margin-top: 2%;
+  width: 75%;
+}
+.galleryOuterContainer {
+  display: flex;
+  justify-content: center;
+}
+.gallery {
+  -webkit-column-count: 3;
+  -moz-column-count: 3;
+  column-count: 3;
+  -webkit-column-width: 33%;
+  -moz-column-width: 33%;
+  column-width: 33%;
+  margin-bottom: 3%;
+}
+.gallery img {
+  box-shadow: 0 10px 6px -6px #777;
+}
+.gallery .pics {
+  -webkit-transition: all 350ms ease;
+  transition: all 350ms ease;
+}
+.gallery .animation {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+#AccomplishmentsJumbotron {
+  background-image: url("../images/AccomplishmentsJumbo.jpg");
+  color: white;
+  text-shadow: 2px 3px 3px #000000;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0px -200px;
+}
+
+@media (max-width: 450px) {
+  .gallery {
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    column-count: 1;
+    -webkit-column-width: 100%;
+    -moz-column-width: 100%;
+    column-width: 100%;
+  }
+}
+
+@media (max-width: 400px) {
+  .btn.filter {
+    padding-left: 1.1rem;
+    padding-right: 1.1rem;
+  }
+}
+@media only screen and (max-width: 600px) {
+  #AccomplishmentsJumbotron {
+    color: white;
+    text-shadow: 2px 3px 3px #000000;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0px 0px;
+  }
+  #AccomplishmentsJumbotron h1 {
+    font-size: 2.5em;
+  }
+}

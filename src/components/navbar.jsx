@@ -37,15 +37,37 @@ const Navbar = () => {
               Home
             </NavLink>
           </li>
-          <li class="nav-item">
-            <NavLink
-              exact
-              activeClassName="nav-link active"
-              className="nav-link"
-              to="/about"
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
             >
               About
-            </NavLink>
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <NavLink
+                exact
+                activeClassName="active-dropdown"
+                className="dropdown-item"
+                to="/lessons"
+              >
+                Our Staff
+              </NavLink>
+
+              <NavLink
+                exact
+                activeClassName="active-dropdown"
+                className="dropdown-item"
+                to="/accomplishments"
+              >
+                Accomplishments
+              </NavLink>
+            </div>
           </li>
           <li class="nav-item">
             <NavLink
@@ -65,6 +87,16 @@ const Navbar = () => {
               to="/boarding"
             >
               Boarding
+            </NavLink>
+          </li>
+          <li class="nav-item">
+            <NavLink
+              exact
+              activeClassName="nav-link active"
+              className="nav-link"
+              to="/contact"
+            >
+              Contact
             </NavLink>
           </li>
         </ul>

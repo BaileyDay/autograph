@@ -64,7 +64,15 @@ const Footer = () => {
                 <a href="/">Home</a>
               </li>
               <li>
-                <a href="/about">About</a>
+                <a href="">About</a>
+                <ul className="subList">
+                  <li>
+                    <a href="/accomplishments">Accomplishments</a>
+                  </li>
+                  <li>
+                    <a href="/accomplishments">Our Staff</a>
+                  </li>
+                </ul>
               </li>
               <li>
                 <a href="/lessons">Lessons</a>

@@ -28,6 +28,9 @@
 #BarnTitle {
   margin-left: 5%;
 }
+.subList {
+  font-size: 0.7em;
+}
 
 @media only screen and (max-width: 600px) {
   #social {
@@ -39,5 +42,10 @@
   }
   #BarnTitle {
     margin-left: 0%;
+  }
+  .subList {
+    font-size: 1em;
+    list-style: none;
+    margin-right: 10%;
   }
 }

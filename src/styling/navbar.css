@@ -13,6 +13,10 @@
   background-color: rgb(179, 179, 179);
   color: white;
 }
+.dropdown-item:focus {
+  background-color: rgb(179, 179, 179);
+  color: white;
+}
 
 @media only screen and (max-width: 600px) {
   .logo {

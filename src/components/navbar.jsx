@@ -54,7 +54,7 @@ const Navbar = () => {
                 exact
                 activeClassName="active-dropdown"
                 className="dropdown-item"
-                to="/lessons"
+                to="/staff"
               >
                 Our Staff
               </NavLink>

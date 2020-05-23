@@ -35,15 +35,7 @@ const Footer = () => {
                   />
                 </a>
               </li>
-              <li>
-                <a href="http://twitter.com" target="_blank">
-                  <img
-                    src={require("../images/twitter.png")}
-                    alt=""
-                    id="social"
-                  />
-                </a>
-              </li>
+
               <li>
                 <a href="http://instagram.com" target="_blank">
                   <img
@@ -70,7 +62,7 @@ const Footer = () => {
                     <a href="/accomplishments">Accomplishments</a>
                   </li>
                   <li>
-                    <a href="/accomplishments">Our Staff</a>
+                    <a href="/staff">Our Staff</a>
                   </li>
                 </ul>
               </li>

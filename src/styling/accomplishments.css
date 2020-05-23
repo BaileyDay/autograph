@@ -35,6 +35,12 @@
   background-size: cover;
   background-position: 0px -200px;
 }
+#AccomplishmentsJumbotron h1 {
+  font-family: "Noto Sans", sans-serif;
+}
+#AccomplishmentsJumbotron p {
+  font-family: "Roboto", sans-serif;
+}
 
 @media (max-width: 450px) {
   .gallery {

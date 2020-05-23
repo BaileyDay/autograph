@@ -25,7 +25,7 @@ const Carousel = () => {
               class="carouselImage"
               alt="..."
             />
-            <div class="carousel-caption d-none d-block">
+            <div class="carousel-caption d-none d-block" id="captionContainer">
               <h1 clas>Welcome to your horse farm!</h1>
               <div className="slideDescContainer">
                 <p className="slideDescription">
@@ -44,7 +44,7 @@ const Carousel = () => {
               class="carouselImage"
               alt="..."
             />
-            <div class="carousel-caption d-none d-block">
+            <div class="carousel-caption d-none d-block" id="captionContainer">
               <h1>Champions Ride here</h1>
               <div className="slideDescContainer">
                 <p className="slideDescription">
@@ -63,7 +63,7 @@ const Carousel = () => {
               class="carouselImage"
               alt="..."
             />
-            <div class="carousel-caption d-none d-block">
+            <div class="carousel-caption d-none d-block" id="captionContainer">
               <h1>First Class Facilities</h1>
               <div className="slideDescContainer">
                 <p className="slideDescription">

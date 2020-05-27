@@ -7,7 +7,7 @@ const MainCards = () => {
       <div className="card">
         <div className="card-body">
           <div className="cardImgContainer">
-            <img src={require("../images/facility.png")} id="lessonsImg" />
+            <img src={require("../images/LaidBack.png")} id="lessonsImg" />
           </div>
           <h5 className="card-title">Laid Back Enviroment</h5>
           <p className="card-text">

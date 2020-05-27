@@ -16,31 +16,31 @@ const BusinessHours = () => {
               <ul class="list-unstyled opening-hours">
                 <li>
                   <span className="dayTitle"> Sunday</span>{" "}
-                  <span class="pull-right">Closed</span>
+                  <span class="pull-right">9:00 AM - 6:00 PM</span>
                 </li>
                 <li>
                   <span className="dayTitle">Monday </span>
-                  <span class="pull-right">9:00 AM - 4:00 PM</span>
+                  <span class="pull-right">9:00 AM - 6:00 PM</span>
                 </li>
                 <li>
                   <span className="dayTitle">Tuesday </span>
-                  <span class="pull-right">9:00 AM - 4:00 PM</span>
+                  <span class="pull-right">9:00 AM - 6:00 PM</span>
                 </li>
                 <li>
                   <span className="dayTitle">Wednesday </span>
-                  <span class="pull-right">9:00 AM - 4:00 PM</span>
+                  <span class="pull-right">9:00 AM - 6:00 PM</span>
                 </li>
                 <li>
                   <span className="dayTitle">Thursday </span>
-                  <span class="pull-right">9:00 AM - 4:00 PM</span>
+                  <span class="pull-right">9:00 AM - 6:00 PM</span>
                 </li>
                 <li>
                   <span className="dayTitle">Friday</span>{" "}
-                  <span class="pull-right">9:00 AM - 4:00 PM</span>
+                  <span class="pull-right">9:00 AM - 6:00 PM</span>
                 </li>
                 <li>
                   <span className="dayTitle"> Saturday </span>
-                  <span class="pull-right">9:00 AM -4:00 PM</span>
+                  <span class="pull-right">9:00 AM -6:00 PM</span>
                 </li>
               </ul>
             </div>

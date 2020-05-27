@@ -2,6 +2,12 @@
   margin-left: 5%;
   margin-right: 5%;
 }
+.card-text {
+  text-align: center;
+}
+.card-title {
+  text-align: center;
+}
 
 .card-body {
   box-shadow: 0 10px 6px -6px #777;

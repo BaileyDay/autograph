@@ -3,29 +3,20 @@ import "../styling/footer.css";
 
 const Footer = () => {
   return (
-    <footer class="page-footer font-small pt-4">
-      <div class="container-fluid text-center text-md-left">
-        <div class="row">
-          <div class="col-md-6 mt-md-0 mt-3">
-            <h5 class="text-uppercase" id="BarnTitle">
+    <footer className="page-footer font-small pt-4">
+      <div className="container-fluid text-center text-md-left">
+        <div className="row">
+          <div className="col-md-6 mt-md-0 mt-3">
+            <h5 className="text-uppercase" id="BarnTitle">
               Autograph Farm
             </h5>
-            <p className="footerText">
-              Autograph Farm is a premier equestrian show barn located in the
-              heart of Alpharetta, Georgia, north Atlanta's most sought-after
-              horse community. Our facility features a 12 stall barn, spacious
-              pastures for daily turnout, three arenas and much more. We offer a
-              riding lesson program for all levels of riders. We develop
-              well-rounded riders and participate in premier and national shows
-              as well as local GHJA shows.
-            </p>
           </div>
 
-          <hr class="clearfix w-100 d-md-none pb-3" />
-          <div class="col-md-3 mb-md-0 mb-3">
-            <h5 class="text-uppercase">Social Media</h5>
+          <hr className="clearfix w-100 d-md-none pb-3" />
+          <div className="col-md-3 mb-md-0 mb-3">
+            <h5 className="text-uppercase">Social Media</h5>
 
-            <ul class="list-unstyled">
+            <ul className="list-unstyled">
               <li>
                 <a href="http://facebook.com" target="_blank">
                   <img
@@ -48,10 +39,10 @@ const Footer = () => {
             </ul>
           </div>
 
-          <div class="col-md-3 mb-md-0 mb-3">
-            <h5 class="text-uppercase">Our Site</h5>
+          <div className="col-md-3 mb-md-0 mb-3">
+            <h5 className="text-uppercase">Our Site</h5>
 
-            <ul class="list-unstyled">
+            <ul className="list-unstyled">
               <li>
                 <a href="/">Home</a>
               </li>
@@ -77,7 +68,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div class="footer-copyright text-center py-3">
+      <div className="footer-copyright text-center py-3">
         © 2020 Copyright:
         <a href="#"> AutographFarm.com</a>
       </div>

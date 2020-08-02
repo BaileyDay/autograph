@@ -23,14 +23,13 @@
 <p align="center">
  <img src="/stonksgif.gif?raw=true" width="750px">
 </p>
-autograph
+Front end business website built for a clients horse barn. 
 
 ### Built With
 * [React](https://reactjs.org/) - Client
 * [React Router](https://reactrouter.com/) - Client side routing
-* [Material UI](https://material-ui.com/) - CSS framework
-* [iexcloud](https://iexcloud.io/) - Stock Market API
-* [ChartJS](https://www.chartjs.org/) - Chart plotting library
+* [Bootstrap](https://getbootstrap.com/) - CSS Framework
+
 
 
 

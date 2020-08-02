@@ -4,16 +4,16 @@
 <br />
 <p align="center">
     <a>
-    <img src="/logo1.png" alt="Logo" width="750" height="300">
+    <img src="/logo1.png" alt="Logo" width="500" height="150">
     </a>
 
-  <h3 align="center">StonksJS</h3>
+  <h3 align="center">Autograph Farm</h3>
 
   <p align="center">
-   Group capstone project for digital crafts.
+   Front end business website.
     <br />
     <br />
-    <a href="https://stonks.baileyday.dev">Check out the Live Version</a>
+    <a href="https://autograph.baileyday.dev">Check out the Live Version</a>
   </p>
 </p>
 
@@ -23,7 +23,7 @@
 <p align="center">
  <img src="/stonksgif.gif?raw=true" width="750px">
 </p>
-capstone
+autograph
 
 ### Built With
 * [React](https://reactjs.org/) - Client

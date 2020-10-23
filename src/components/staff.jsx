@@ -31,12 +31,23 @@ const Staff = () => {
             <div className="card ">
               <div className="card-body ">
                 <img src={require("../images/Staff/profile1.png")} alt="" />
-                <h5 className="card-title">Ava Lastname</h5>
-                <h6 className="staffTitle">Trainer</h6>
+                <h5 className="card-title">Ava Daughters</h5>
+                <h6 className="staffTitle">Assistant Trainer</h6>
                 <p className="card-text">
-                  Loves horses and everything about horses. Has been a CEO for
-                  one year. Loves jumping horses and playing with baby horses.
-                  loves big and small horses.
+                  Ava grew up riding horses from almost day one. She has shown
+                  successfully in equitation and hunters around Georgia and the
+                  Southeast. Ava has worked at multiple summer camps, teaching
+                  children fundamentals of riding and horsemanship, as she knows
+                  that the true "horse person" cultivates understanding and
+                  knowledge on and off the horse. Ava competed in IEA from 6th
+                  through 12th grade, qualifying for regional, zone and national
+                  competitions multiple times. She captained her Pace Academy
+                  IEA team her junior and senior years of high school, deepening
+                  her leadership and instructional horse and people skills. Ava
+                  also, attends Georgia State University, and is currently
+                  majoring in business marketing. For her, the most satisfying
+                  part of coaching is seeing confidence grow and flourish in her
+                  students -- on and off the horse.
                 </p>
               </div>
             </div>

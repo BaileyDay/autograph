@@ -21,7 +21,7 @@ const MainCards = () => {
       <div className="card">
         <div className="card-body">
           <div className="cardImgContainer">
-            <img src={require("../images/horseBoard.png")} id="lessonsImg" />
+            <img src={require("../images/premium.JPG")} id="lessonsImg" />
           </div>
           <h5 className="card-title">Premium Boarding </h5>
           <p className="card-text">

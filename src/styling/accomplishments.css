@@ -28,7 +28,7 @@
   transform: scale(1);
 }
 #AccomplishmentsJumbotron {
-  background-image: url("../images/AccomplishmentsJumbo.jpg");
+  background-image: url("../images/accomplishments.jpeg");
   color: white;
   text-shadow: 2px 3px 3px #000000;
   background-repeat: no-repeat;
@@ -36,7 +36,7 @@
   background-position: 0px -200px;
 }
 #AccomplishmentsJumbotron h1 {
-  font-family: "Noto Sans", sans-serif;
+  font-family: "Times New Roman", Times, serif;
 }
 #AccomplishmentsJumbotron p {
   font-family: "Roboto", sans-serif;

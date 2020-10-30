@@ -10,9 +10,7 @@ const Accomplishments = () => {
       <div class="jumbotron jumbotron-fluid" id="AccomplishmentsJumbotron">
         <div class="container">
           <h1 class="display-4">Accomplishments</h1>
-          <p class="lead">
-            Take a look at our variety of accomplishments and awards!
-          </p>
+        
         </div>
       </div>
       <div className="galleryOuterContainer">
@@ -21,7 +19,7 @@ const Accomplishments = () => {
             <div class="mb-3 pics animation all 2">
               <img
                 class="img-fluid"
-                src={require("../images/AccomplishmentImg/1.jpeg")}
+                src={require("../images/AccomplishmentImg/top.JPG")}
                 alt="Card image cap"
               />
             </div>
@@ -37,7 +35,7 @@ const Accomplishments = () => {
             <div class="mb-3 pics animation all 1">
               <img
                 class="img-fluid"
-                src={require("../images/AccomplishmentImg/3.jpeg")}
+                src={require("../images/AccomplishmentImg/new3.jpeg")}
                 alt="Card image cap"
               />
             </div>
@@ -132,6 +130,13 @@ const Accomplishments = () => {
               <img
                 class="img-fluid"
                 src={require("../images/AccomplishmentImg/15.jpeg")}
+                alt="Card image cap"
+              />
+            </div>
+            <div class="mb-3 pics animation all 1">
+              <img
+                class="img-fluid"
+                src={require("../images/AccomplishmentImg/16.jpeg")}
                 alt="Card image cap"
               />
             </div>

@@ -19,7 +19,7 @@ const Staff = () => {
           <div className="row">
             <div className="card ">
               <div className="card-body ">
-                <img src={require("../images/Staff/profile1.png")} alt="" />
+                <img src={require("../images/Staff/jules.JPG")} alt="" />
                 <h5 className="card-title">Juliana Czkalala</h5>
                 <h6 className="staffTitle">CEO</h6>
                 <p className="card-text">
@@ -30,7 +30,7 @@ const Staff = () => {
             </div>
             <div className="card ">
               <div className="card-body ">
-                <img src={require("../images/Staff/profile1.png")} alt="" />
+                <img src={require("../images/Staff/ava.jpeg")} alt="" />
                 <h5 className="card-title">Ava Daughters</h5>
                 <h6 className="staffTitle">Assistant Trainer</h6>
                 <p className="card-text">
@@ -52,8 +52,8 @@ const Staff = () => {
               </div>
             </div>
           </div>
-          <h2 className="staffListing">Our Horses</h2>
-          <div className="row">
+          {/* <h2 className="staffListing">Our Horses</h2> */}
+          {/* <div className="row">
             <div className="card ">
               <div className="card-body ">
                 <img src={require("../images/Staff/profile2.png")} alt="" />
@@ -76,7 +76,7 @@ const Staff = () => {
                 </p>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
       <Footer />

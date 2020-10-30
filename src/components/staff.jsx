@@ -23,7 +23,7 @@ const Staff = () => {
                 <h5 className="card-title">Juliana Czkalala</h5>
                 <h6 className="staffTitle">CEO</h6>
                 <p className="card-text">
-                  Loves horses and everything about horses. Has been a CEO for
+                  Loves horses and everything about horses. Has been a CEO's for
                   one year. Loves jumping horses and playing with baby horses.
                 </p>
               </div>

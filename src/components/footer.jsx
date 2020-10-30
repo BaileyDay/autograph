@@ -18,7 +18,7 @@ const Footer = () => {
 
             <ul className="list-unstyled">
               <li>
-                <a href="http://facebook.com" target="_blank">
+                <a href="https://www.facebook.com/Autograph-Farm-LLC-108658054303892/" target="_blank">
                   <img
                     src={require("../images/facebook.png")}
                     alt=""
@@ -28,7 +28,7 @@ const Footer = () => {
               </li>
 
               <li>
-                <a href="http://instagram.com" target="_blank">
+                <a href="https://www.instagram.com/autographfarmllc/?hl=en" target="_blank">
                   <img
                     src={require("../images/instagram.png")}
                     alt=""

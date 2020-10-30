@@ -10,7 +10,6 @@ const Staff = () => {
       <div className="jumbotron jumbotron-fluid" id="staffJumbotron">
         <div className="container">
           <h1 className="display-4">The Faces of Autograph Farm</h1>
-          <p className="lead">Meet our family!</p>
         </div>
       </div>
       <div className="staffCardContainer">
@@ -21,7 +20,7 @@ const Staff = () => {
               <div className="card-body ">
                 <img src={require("../images/Staff/jules.JPG")} alt="" />
                 <h5 className="card-title">Juliana Czkalala</h5>
-                <h6 className="staffTitle">CEO</h6>
+                <h6 className="staffTitle">Head Trainer and Barn Manager </h6>
                 <p className="card-text">
                   Loves horses and everything about horses. Has been a CEO's for
                   one year. Loves jumping horses and playing with baby horses.

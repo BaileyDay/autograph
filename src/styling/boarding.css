@@ -32,6 +32,9 @@
   .boarding1 img {
     box-shadow: 0 10px 6px -6px #777;
   }
+  #firstHeader {
+    margin-left: 30%;
+  }
   
   .boarding2Container {
     margin-top: 5%;
@@ -76,5 +79,8 @@
       margin-top: 2%;
       margin-bottom: 3%;
     }
+    #firstHeader {
+        margin-left: 0%;
+      }
   }
   

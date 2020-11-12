@@ -1,0 +1,79 @@
+#boardingJumbotron {
+    background-image: url("../images/boardingJumbotron.JPG");
+    color: white;
+    text-shadow: 2px 3px 3px #000000;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0px -500px;
+  }
+  #boardingJumbotron h1 {
+    font-family: 'Times New Roman', Times, serif
+  }
+  #lessonsJumbotron p {
+    font-family: "Roboto", sans-serif;
+  }
+  
+  .lessonsContainer {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+  }
+  
+  .lessonsContainer p {
+    font-size: 1.2em;
+  }
+  
+  .lessons1 {
+    object-fit: contain;
+    width: 100%;
+    height: 75%;
+  }
+  .lessons1 img {
+    box-shadow: 0 10px 6px -6px #777;
+  }
+  
+  .lessons2Container {
+    margin-top: -10%;
+  }
+  
+  .contactContainer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
+  }
+  .contactContainer a {
+    background-color: #783030;
+    border: #652828;
+    color: white;
+    box-shadow: -3px 3px #632727, -2px 2px #632828, -1px 1px #642727;
+    text-shadow: none;
+    width: 30%;
+    height: 50px;
+    font-size: 1.2em;
+    padding-top: 0.6%;
+  }
+  .contactContainer a:hover {
+    background-color: #783030;
+    border: #652828;
+    color: white;
+    box-shadow: -3px 3px #632727, -2px 2px #632828, -1px 1px #642727;
+    text-shadow: none;
+  }
+  @media only screen and (max-width: 600px) {
+    #boardingJumbotron {
+      color: white;
+      text-shadow: 2px 3px 3px #000000;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: 0px 0px;
+    }
+    .contactContainer a {
+      width: 90%;
+      height: 50px;
+      font-size: 1.2em;
+      padding-top: 3%;
+      margin-top: 2%;
+      margin-bottom: 3%;
+    }
+  }
+  

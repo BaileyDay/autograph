@@ -53,7 +53,7 @@ const Carousel = () => {
           </div>
           <div className="carousel-item">
             <img
-              src={require("../images/carousel-5.png")}
+              src={require("../images/carousel-7.JPG")}
               className="carouselImage"
               alt="..."
             />
@@ -64,7 +64,7 @@ const Carousel = () => {
               className="carouselImage"
               alt="..."
             />
-          </div>
+          </div> 
         </div>
         <a
           className="carousel-control-prev"

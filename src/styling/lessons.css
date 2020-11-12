@@ -44,7 +44,6 @@
 
 @media only screen and (max-width: 600px) {
   #lessonsJumbotron {
-    background-image: url("../images/lessons.jpg");
     color: white;
     text-shadow: 2px 3px 3px #000000;
     background-repeat: no-repeat;

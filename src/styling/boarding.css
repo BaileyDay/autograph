@@ -42,10 +42,10 @@
     margin-bottom: 5%;
   }
   .contactContainer a {
-    background-color: #783030;
-    border: #652828;
+    background-color:  #323232;
+    border: #1f1e1e;
     color: white;
-    box-shadow: -3px 3px #632727, -2px 2px #632828, -1px 1px #642727;
+    box-shadow: -3px 3px  #1a1919, -2px 2px  #252525, -1px 1px #1b1b1b;
     text-shadow: none;
     width: 30%;
     height: 50px;
@@ -53,10 +53,10 @@
     padding-top: 0.6%;
   }
   .contactContainer a:hover {
-    background-color: #783030;
-    border: #652828;
+    background-color:  #323232;
+    border: #1f1e1e;
     color: white;
-    box-shadow: -3px 3px #632727, -2px 2px #632828, -1px 1px #642727;
+    box-shadow: -3px 3px  #1a1919, -2px 2px  #252525, -1px 1px #1b1b1b;
     text-shadow: none;
   }
   @media only screen and (max-width: 600px) {

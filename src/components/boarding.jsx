@@ -16,7 +16,7 @@ const Boarding = () => {
       <div className="boardingContainer">
         <div className="contactContainer">
           <a href="/contact" className="btn btn-primary" target="_blank">
-            Contact us about Lessons
+            Contact us about Boarding
           </a>
         </div>
         <div class="row featurette">
@@ -44,23 +44,16 @@ const Boarding = () => {
 
           <div class="row featurette">
             <div class="col-md-7 order-md-2">
-              <h2 class="featurette-heading">Quality Horses</h2>
+              <h2 class="featurette-heading">Open Pastures</h2>
               <p class="lead">
-                We have an exceptional range of quality lesson horses and
-                ponies, many that have been in our family for years. Our ponies
-                are safe and easy to manage for the beginning rider – and they
-                love the attention! As riders progress, we have a lovely
-                assortment of larger, more experienced horses ideal for
-                transitioning to a more competitive level. <br />
+                We have spacious grassy pastures that our horses are able to enjoy all day or night, depending on the season. We offer individual or small group turnout, and we supplement with hay throughout the winter. <br />
                 <br />
-                Our horses are available for lessons, partial leases, and horse
-                shows to enable our students to begin to compete. Most
-                importantly, we have fun – and make sure our students do too!
+                
               </p>
             </div>
             <div class="col-md-5 order-md-1">
               <img
-                src={require("../images/lessons2.jpg")}
+                src={require("../images/pastures.JPG")}
                 alt=""
                 className="lessons1"
               />

@@ -13,27 +13,30 @@
     font-family: "Roboto", sans-serif;
   }
   
-  .lessonsContainer {
+  .boardingContainer {
     margin-left: 10%;
     margin-right: 10%;
     margin-top: 5%;
+  }
+  .boardingContainer h2 {
+    text-align: center;
   }
   
   .lessonsContainer p {
     font-size: 1.2em;
   }
   
-  .lessons1 {
+  .boarding1 {
     object-fit: contain;
     width: 100%;
     height: 75%;
   }
-  .lessons1 img {
+  .boarding1 img {
     box-shadow: 0 10px 6px -6px #777;
   }
   
-  .lessons2Container {
-    margin-top: -10%;
+  .boarding2Container {
+    margin-top: 5%;
   }
   
   .contactContainer {

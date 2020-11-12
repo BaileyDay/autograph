@@ -13,41 +13,33 @@ const Boarding = () => {
            
         </div>
       </div>
-      <div className="lessonsContainer">
+      <div className="boardingContainer">
         <div className="contactContainer">
           <a href="/contact" className="btn btn-primary" target="_blank">
             Contact us about Lessons
           </a>
         </div>
         <div class="row featurette">
-          <div class="col-md-7">
-            <h2 class="featurette-heading">Training for Every Level</h2>
-            <p class="lead">
-              Whether you’re a first-time rider or an accomplished equestrian
-              looking to hone your talents, Autograph Farm offers something for
-              everyone. <br />
-              <br />
-              Our talented trainers offer customized lesson programs tailored to
-              the unique needs and level of each rider. Many of our clients have
-              been with us since they began, starting in our lesson program and
-              progressing into ownership. Our approach to training is designed
-              to help riders reach their individual goals. <br />
-              <br />
-              We offer a wide array of options, from beginner lead-line sessions
-              to the most competitive hunter / jumper levels. Additionally, our
-              summer camps are a fun, engaging way to let young riding
-              enthusiasts further explore their horse interests.
-            </p>
-          </div>
-          <div class="col-md-5">
+        <div class="col-md-6">
             <img
-              src={require("../images/lessons1.jpg")}
+              src={require("../images/BoardingOne.JPG")}
               alt=""
-              className="lessons1"
+              className="boarding1"
             />
           </div>
+          <div class="col-md-6">
+            <img
+              src={require("../images/BoardingTwo.JPG")}
+              alt=""
+              className="boarding1"
+            />
+          </div>
+          <div class="col-md-13">
+            <h2 class="featurette-heading">Our Barn is very reasonably sized so that we are able to care for each horses specific needs.</h2>
+            
+          </div>
         </div>
-        <div className="lessons2Container">
+        <div className="boarding2Container">
           <hr class="featurette-divider" />
 
           <div class="row featurette">

@@ -1,10 +1,10 @@
 #lessonsJumbotron {
-  background-image: url("../images/lessons.jpg");
+  background-image: url("../images/lessonsJumbo.jpeg");
   color: white;
   text-shadow: 2px 3px 3px #000000;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: 0px -200px;
+  background-position: 0px -300px;
 }
 #lessonsJumbotron h1 {
   font-family: 'Times New Roman', Times, serif
@@ -41,24 +41,7 @@
   justify-content: center;
   margin-bottom: 5%;
 }
-.contactContainer a {
-  background-color: #783030;
-  border: #652828;
-  color: white;
-  box-shadow: -3px 3px #632727, -2px 2px #632828, -1px 1px #642727;
-  text-shadow: none;
-  width: 30%;
-  height: 50px;
-  font-size: 1.2em;
-  padding-top: 0.6%;
-}
-.contactContainer a:hover {
-  background-color: #783030;
-  border: #652828;
-  color: white;
-  box-shadow: -3px 3px #632727, -2px 2px #632828, -1px 1px #642727;
-  text-shadow: none;
-}
+
 @media only screen and (max-width: 600px) {
   #lessonsJumbotron {
     background-image: url("../images/lessons.jpg");

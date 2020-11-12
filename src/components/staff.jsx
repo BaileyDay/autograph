@@ -22,8 +22,13 @@ const Staff = () => {
                 <h5 className="card-title">Juliana Czkalala</h5>
                 <h6 className="staffTitle">Head Trainer and Barn Manager </h6>
                 <p className="card-text">
-                  Loves horses and everything about horses. Has been a CEO's for
-                  one year. Loves jumping horses and playing with baby horses.
+                Juliana was raised around horses and has been riding for almost twenty years.  First showing at age six, she went on to find success in hunters, jumpers, and equitation thanks to coaching from fantastic trainers such as Kim Land, Christina Schulchmier, Stacia Madden, Don Stewart, Sunny Stevens, Julie Mohr and several others.  Juliana also trained with and was mentored by Tim Sweat for the first three years of her professional career.
+ 
+ She now thoroughly enjoys sharing her riding experience and love of horses with both kids and adults.  She’s helped her students achieve a variety of goals, including winning championships at both the local and rated levels, and qualifying, riding, and winning at indoors.  She has also ridden on and helped coach successful IEA teams across regional, zone, and national levels.
+  
+ <br></br><br></br>Juliana also gets great satisfaction ensuring that the horses at her barn are getting top quality care in every aspect.  She even enjoys the challenge of working with and rehabilitating “problem” horses. One of her specialties is thoroughbreds – she has trained several off-the-track thoroughbreds into new vocations as hunter jumpers.
+  
+ Working with horses is not only Juliana’s job, but also her lifelong passion. 
                 </p>
               </div>
             </div>

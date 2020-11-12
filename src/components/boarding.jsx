@@ -65,24 +65,40 @@ const Boarding = () => {
 
         <div class="row featurette">
           <div class="col-md-7">
-            <h2 class="featurette-heading">Our Legacy</h2>
+            <h2 class="featurette-heading">Spacious Stalls</h2>
             <p class="lead">
-              Many Autograph riders compete at the most advanced hunter / jumper
-              ‘AA’ level. Whether your interest is in the hunter, jumper, or
-              equitation ring, our trainers have the skill and experience to
-              take you to this highest level. We compete regularly at shows
-              throughout the southeast and often have riders competing at the
-              top levels in Kentucky, Harrisburg, and Devon.
+              We have large 12' x 14' stalls that are cleaned daily and heavily bedded at all times.
             </p>
           </div>
           <div class="col-md-5">
             <img
-              src={require("../images/lessons3.jpg")}
+              src={require("../images/Stalls.jpeg")}
               alt=""
               className="lessons1"
             />
           </div>
         </div>
+        <hr class="featurette-divider" />
+
+          <div class="row featurette">
+            <div class="col-md-7 order-md-2">
+              <h2 class="featurette-heading">Happy Horses</h2>
+              <p class="lead">
+                We offer four different types of grain, three different types of hay, and are happy to feed supplements to make sure every horses needs are met. We also have hay nets for every horse, to insure that they always have something to eat and occupy their time indoors.
+                <br />
+                <br />
+                The barn owner lives on property and the barn manager lives less than 5 minutes away. The entire property is fenced in and gated to insure your horses safety.
+                
+              </p>
+            </div>
+            <div class="col-md-5 order-md-1">
+              <img
+                src={require("../images/BoardingThree.jpeg")}
+                alt=""
+                className="lessons1"
+              />
+            </div>
+          </div>
       </div>
       <Footer />
     </>

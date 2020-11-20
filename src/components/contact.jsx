@@ -16,7 +16,7 @@ const Contact = () => {
       <div className="contactPageContainer">
       <h2 className="featurette-heading">Join our team!</h2>
       <br></br>
-      <p className="lead">Interested in becoming a member of our team? Please call or text Juliana at <a href="tel:678-836-6990">678-836-6990</a></p> 
+      <p className="lead">Interested in lessons or boarding? Please call or text Juliana at <a href="tel:678-836-6990">678-836-6990</a></p> 
       <br>
       </br>
       <h2 className="featurette-heading">Our Location</h2>

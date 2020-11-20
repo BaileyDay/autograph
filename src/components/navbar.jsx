@@ -67,6 +67,14 @@ const Navbar = () => {
               >
                 Accomplishments
               </NavLink>
+              <NavLink
+                exact
+                activeClassName="active-dropdown"
+                className="dropdown-item"
+                to="/funTimes"
+              >
+                Fun Times
+              </NavLink>
             </div>
           </li>
           <li class="nav-item">

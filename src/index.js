@@ -11,6 +11,7 @@ import Boarding from "./components/boarding";
 import Contact from "./components/contact";
 import Accomplishments from "./components/accomplishments";
 import Staff from "./components/staff";
+import FunTimes from "./components/funTimes"
 
 ReactDOM.render(
   <React.StrictMode>
@@ -23,6 +24,7 @@ ReactDOM.render(
         <Route path="/contact" exact component={Contact} />
         <Route path="/accomplishments" exact component={Accomplishments} />
         <Route path="/staff" exact component={Staff} />
+        <Route path="/funTimes" exact component={FunTimes} />
         <Route component={NoMatch} />
       </Switch>
     </Router>

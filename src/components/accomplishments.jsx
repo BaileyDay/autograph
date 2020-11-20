@@ -27,14 +27,6 @@ const Accomplishments = () => {
             <div class="mb-3 pics animation all 1">
               <img
                 class="img-fluid"
-                src={require("../images/AccomplishmentImg/2.jpeg")}
-                alt="Card image cap"
-              />
-            </div>
-
-            <div class="mb-3 pics animation all 1">
-              <img
-                class="img-fluid"
                 src={require("../images/AccomplishmentImg/new3.jpeg")}
                 alt="Card image cap"
               />

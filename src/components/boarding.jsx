@@ -35,7 +35,7 @@ const Boarding = () => {
             />
           </div>
           <div class="col-md-13">
-            <h2 class="featurette-heading" id="firstHeader">Our Barn is very reasonably sized so that we are able to care for each horses specific needs.</h2>
+            <p class="lead" id="firstHeader">Our Barn is very reasonably sized so that we are able to care for each horses specific needs.</p>
             
           </div>
         </div>

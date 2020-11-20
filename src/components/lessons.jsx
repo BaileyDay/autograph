@@ -23,27 +23,17 @@ const Lessons = () => {
         </div>
         <div class="row featurette">
           <div class="col-md-7">
-            <h2 class="featurette-heading">Training for Every Level</h2>
             <p class="lead">
-              Whether you’re a first-time rider or an accomplished equestrian
-              looking to hone your talents, Autograph Farm offers something for
-              everyone. <br />
-              <br />
-              Our talented trainers offer customized lesson programs tailored to
-              the unique needs and level of each rider. Many of our clients have
-              been with us since they began, starting in our lesson program and
-              progressing into ownership. Our approach to training is designed
-              to help riders reach their individual goals. <br />
-              <br />
-              We offer a wide array of options, from beginner lead-line sessions
-              to the most competitive hunter / jumper levels. Additionally, our
-              summer camps are a fun, engaging way to let young riding
-              enthusiasts further explore their horse interests.
+            At Autograph Farm we offer lessons for all levels of riders ages four and up.  
+            Whether you want to lesson just for fun or show at some of the top shows in the country, we can happily accommodate you!  
+            <br></br><br></br>
+            If you do not own a horse, no problem - we have eight sweet horses and ponies available for lessons at varying skill sets.  
+            Several of these are even leasable for shows.  We offer group lessons for all ages, as well as private lessons for those preferring individual instruction.  
             </p>
           </div>
           <div class="col-md-5">
             <img
-              src={require("../images/lessons1.jpg")}
+              src={require("../images/lessons01.jpeg")}
               alt=""
               className="lessons1"
             />
@@ -54,23 +44,14 @@ const Lessons = () => {
 
           <div class="row featurette">
             <div class="col-md-7 order-md-2">
-              <h2 class="featurette-heading">Quality Horses</h2>
+              <br></br>
               <p class="lead">
-                We have an exceptional range of quality lesson horses and
-                ponies, many that have been in our family for years. Our ponies
-                are safe and easy to manage for the beginning rider – and they
-                love the attention! As riders progress, we have a lovely
-                assortment of larger, more experienced horses ideal for
-                transitioning to a more competitive level. <br />
-                <br />
-                Our horses are available for lessons, partial leases, and horse
-                shows to enable our students to begin to compete. Most
-                importantly, we have fun – and make sure our students do too!
+              We also emphasize horse care as an integral part of horsemanship.  As such, we spend time on the fundamentals of horse care before and after lessons.  We also provide opportunities outside of lessons for those wishing to further advance their horse-care skills.  
               </p>
             </div>
             <div class="col-md-5 order-md-1">
               <img
-                src={require("../images/lessons2.jpg")}
+                src={require("../images/lessons03.jpeg")}
                 alt=""
                 className="lessons1"
               />
@@ -82,19 +63,15 @@ const Lessons = () => {
 
         <div class="row featurette">
           <div class="col-md-7">
-            <h2 class="featurette-heading">Our Legacy</h2>
-            <p class="lead">
-              Many Autograph riders compete at the most advanced hunter / jumper
-              ‘AA’ level. Whether your interest is in the hunter, jumper, or
-              equitation ring, our trainers have the skill and experience to
-              take you to this highest level. We compete regularly at shows
-              throughout the southeast and often have riders competing at the
-              top levels in Kentucky, Harrisburg, and Devon.
-            </p>
+          <img
+              src={require("../images/lessons02.PNG")}
+              alt=""
+              className="lessons1"
+            />
           </div>
           <div class="col-md-5">
             <img
-              src={require("../images/lessons3.jpg")}
+              src={require("../images/lessons04.jpeg")}
               alt=""
               className="lessons1"
             />

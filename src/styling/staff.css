@@ -5,6 +5,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 0px -300px;
+  
 }
 #staffJumbotron h1 {
   font-family: "Times New Roman", Times, serif, sans-serif;
@@ -57,6 +58,8 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 0px 0px;
+    text-align: center;
+    height: 30vh;
   }
   .staffCard img {
     width: 75%;
@@ -85,6 +88,7 @@
   }
   #staffJumbotron h1 {
     font-family: "Times New Roman", Times, serif, sans-serif;
-    font-size: 2em;
-  }
+    font-size: 1.7em;
+    margin-top: -20%;
+}
 }
